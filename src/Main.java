@@ -5,5 +5,6 @@ public class Main {
         Warrior spm = new Archer("Ronald", 40, 15);
         Warrior clr = new Cavalry("Ronald", 40, 15);
         spm.defend();
+        System.out.println(Warrior.getWarriorCount());
     }
 }
